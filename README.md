@@ -1,2 +1,2 @@
 # CurrencyConverter
-University 1st term project
+University 1st year project
