@@ -1,0 +1,41 @@
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+	-fx-background-color: linear-gradient(#333 0%, #004d00 25%, #208000 75%, #1aff1a 100%);
+    -fx-text-fill: white;
+}
+.list-cell { -fx-text-fill: #0d5728; /* 5 */ }
+.list-cell:even { -fx-background-color:   #51ab61; /* for information */ }
+.list-cell:odd { -fx-background-color:   #90EE90; /* 1 */ }
+.list-cell:filled:hover { 
+    -fx-background-color: #ADFF2F; /* 2 */
+    -fx-text-fill: #0d5728; /* 5 */
+}
+.context-menu .label, .menu-item .label{
+	-fx-text-fill: white;
+}
+.menu-item .label{
+	-fx-tex-fill: white;
+}
+.menu-item .label, .menu .label{
+    -fx-text-fill: white;
+}
+.menu-item:focused, .menu:hover, .menu:showing {
+     -fx-background-color:  #00e64d;
+}
+.menu:hover .label {
+    -fx-text-fill: #0d5728;
+}
+.menu:showing .label{
+	-fx-text-fill: white;
+}
+.menu-item:focused .label{
+	-fx-text-fill: #0d5728;
+}
+
+.context-menu {
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color: #51ab61;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em; 
+}
+

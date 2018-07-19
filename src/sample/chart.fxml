@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_chart">
+   <children>
+      <LineChart fx:id="chart1" layoutX="41.0" legendVisible="false" prefHeight="400.0" prefWidth="600.0" title="Графік зміни курсу" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <xAxis>
+          <CategoryAxis fx:id="cAxis" label="Дні Тижня" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="nAxis" label="Курс" side="LEFT" />
+        </yAxis>
+      </LineChart>
+   </children>
+</AnchorPane>
